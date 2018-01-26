@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>About</title>
+</head>
+<body>
+<style>
+body, html{
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+}
+
+.pimg1, .pimg2, .pimg3{
+  position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+}
+
+.pimg1{
+  background-image:url('image1.jpg');
+  min-height:100%;
+}
+
+.pimg2{
+  background-image:url('image2.jpg');
+  min-height:400px;
+}
+
+.pimg3{
+  background-image:url('image3.jpg');
+  min-height:400px;
+}
+
+.section{
+  text-align:center;
+  padding:50px 80px;
+}
+
+.section-light{
+  background-color:#f4f4f4;
+  color:#666;
+}
+
+.section-dark{
+  background-color:#282e34;
+  color:#ddd;
+}
+
+.ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.ptext .border{
+  background-color:#111;
+  color:#fff;
+  padding:20px;
+}
+
+.ptext .border.trans{
+  background-color:transparent;
+}
+
+@media(max-width:568px){
+  .pimg1, .pimg2, .pimg3{
+    background-attachment:scroll;
+  }
+}
+</style>
+
+  <div class="pimg2">
+    <div class="ptext">
+      <span class="border">
+        <strong>Anti-korozija.lv</strong>
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-light">
+    <h2>"ANTIKORS BALTIC" SIA</h2>
+    <p>
+Наша специализация - разработка, производство и продажа средств антикоррозийной защиты для метала, бетона, дерева.
+    </p>
+  </section>
+
+  <div class="pimg2">
+    <div class="ptext">
+      <span class="border trans">
+        Anti-korozija.lv
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h2>Anti-korozija.lv</h2>
+    <p>
+ В основу производства нашей продукции взяты рецептуры продуктов, разработаных и внедренных в производство в экспериментальном конструкторском бюро EKTB “Antikors”, созданном при институте Неорганической химии АН ЛССР в 1986 году.   </p>
+  </section>
+
+  <div class="pimg2">
+    <div class="ptext">
+      <span class="border trans">
+        Anti-korozija.lv
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h2>Anti-korozija.lv</h2>
+    <p>
+Учитывая опыт EKTB “Antikors”, SIA “Antikors S” и других предприятй работающих в этой области, и прогрес в производстве сырья, произшедший за последние 30 лет, рецептуры нами были переработаны и усовершенствованы. В производстве теперь используется качественное сырье от ведущих производителей Европы, получаемые нами на прямую, без посредников. Кроме того, нами были усовершенствованы и упрощены, без ущерба для качества, технологические процесы, значительно сократив время и трудоемкость производства </p>
+  </section>
+
+  <div class="pimg2">
+    <div class="ptext">
+      <span class="border">
+        designed by @skreepach
+      </span>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>About</title>
+</head>
+<body>
+<style>
+body, html{
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+}
+
+.pimg1, .pimg2, .pimg3{
+  position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+}
+
+.pimg1{
+  background-image:url('image1.jpg');
+  min-height:100%;
+}
+
+.pimg2{
+  background-image:url('image2.jpg');
+  min-height:400px;
+}
+
+.pimg3{
+  background-image:url('image3.jpg');
+  min-height:400px;
+}
+
+.section{
+  text-align:center;
+  padding:50px 80px;
+}
+
+.section-light{
+  background-color:#f4f4f4;
+  color:#666;
+}
+
+.section-dark{
+  background-color:#282e34;
+  color:#ddd;
+}
+
+.ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.ptext .border{
+  background-color:#111;
+  color:#fff;
+  padding:20px;
+}
+
+.ptext .border.trans{
+  background-color:transparent;
+}
+
+@media(max-width:568px){
+  .pimg1, .pimg2, .pimg3{
+    background-attachment:scroll;
+  }
+}
+</style>
+
+  <div class="pimg2">
+    <div class="ptext">
+      <span class="border">
+        <strong>Anti-korozija.lv</strong>
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-light">
+    <h2>"ANTIKORS BALTIC" SIA</h2>
+    <p>
+Our specialization is development, manufacture and realization of anti-corrosion treatments for metal, concrete, wood.
+    </p>
+  </section>
+
+  <div class="pimg2">
+    <div class="ptext">
+      <span class="border trans">
+        Anti-korozija.lv
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h2>Anti-korozija.lv</h2>
+    <p>
+ In the base of manufacture of our products were taken formulas of the products developed and placed into production in the experimental engineering department of “Antikors” at the Instutute of Non-Organic Chemistry of LSSR in year of 1986.  </p>
+  </section>
+
+  <div class="pimg2">
+    <div class="ptext">
+      <span class="border trans">
+        Anti-korozija.lv
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h2>Anti-korozija.lv</h2>
+    <p>
+  Based on the experience of “Antikors”, SIA “Antikors” and other manufacturers working in this industry, considering the progress in the technology and manufacture of the raw materials for the past 30 years, we worked up and improved those recipes.  Only quality raw materials from leading European fabricators are used in the manufacture of our products.    </p>
+  </section>
+
+  <div class="pimg2">
+    <div class="ptext">
+      <span class="border">
+        designed by @skreepach
+      </span>
+    </div>
+  </div>
+</body>
+</html>
