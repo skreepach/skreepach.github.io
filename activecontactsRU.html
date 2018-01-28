@@ -1,115 +1,131 @@
-<html>
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>antikorozija.lv/Контакты</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>About</title>
 </head>
 <body>
 <style>
-*{
-	margin:0;
-	padding:0;
+body, html{
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
 }
-header{
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('http://gpteam.ir/templates/public/gpteam-material/img/master.jpg');
-	height:100vh;
-	background-size:cover;
-	background-position:center;
+.pimg1, .pimg2, .pimg3{
+  position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
 }
-h1{
-color:grey;
-text-transform:uppercase;
-font-size:70px;
-text-align:center;
+.pimg1{
+  background-image:url('image1.jpg');
+  min-height:100%;
 }
-.main-nav{
-	float:right;
-	list-style:none;
-	margin-top:30px;
+.pimg2{
+  background-image:url('image2.jpg');
+  min-height:400px;
 }
-.main-nav li{
-	display:inline-block;
+.pimg3{
+  background-image:url('image3.jpg');
+  min-height:400px;
 }
-.main-nav li a{
-	color:white;
-	text-decoration:none;
-	padding: 5px 20px;
-	font-family:'Roboto', sans-serif;
-	font-size:15px;
+.section{
+  text-align:center;
+  padding:50px 80px;
+  }
+.section-light{
+  background-color:#996600;
+  color:#ddd;
 }
-.main-nav li.active a{
-	border: 1px solid white;
+.section-dark{
+  background-color:#996600;
+  color:#ddd;
 }
-.main-nav li a:hover{
-	border: 1px solid white;
+.ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
 }
-.logo img{
-	width: 150px;
+.ptext .border{
+  background-color:#111;
+  color:#fff;
+  padding:20px;
+}
+.ptext .border.trans{
+  background-color:transparent;
+}
+@media(max-width:568px){
+  .pimg1, .pimg2, .pimg3{
+    background-attachment:scroll;
+  }
+}
+img{
+	width: 400px;
 	height:auto;
 	float:left;
-}
-body{
-	font-family:monospace;
-}
-.row{
-	max-width:1200px;
-	margin:auto;
-}
-.hero{
-position:absolute;
-width:1200px;
-margin-left:0px;
-margin-top:0px;
-top:400px;
-}
-h2{
-color:white;
-text-transform:uppercase;
-font-size:40px;
-text-align:center;
-}
-.hero1{
-color:white;
-position:absolute;
-width:1200px;
-margin-left:0px;
-margin-top:0px;
-top:400px;
-}
-h5{
-color:#FFDD00;
-text-transform:uppercase;
-font-size:20px;
-text-align:left;
+	border: 5px solid white;
 }
 </style>
-<header>
-<div class='row'>
-<div class='logo'>
-<img src='http://brandmark.io/logo-rank/random/apple.png'>
-<ul class='main-nav'>
-<li class=''><a href='https://skreepach.github.io/activehomeRU.html'>Начало</a></li>
-<li class=''><a href='https://skreepach.github.io/activeblogRU.html'>Блог</a></li>
-<li class=''><a href='https://skreepach.github.io/aboutusRU.html'>О Нас</a></li>
-<li class='active'><a href=''>Контакты</a></li>
-<li class=''><a href='https://skreepach.github.io/activehome.html'>АНГЛ</a></li>
-<li class='active'><a href=''>РУС</a></li>
-</ul>
-</div>
-<div class='hero'>
-<h2>SIA  ANTIKORS  BALTIC</h2>
-</div>
-<div class='hero1'>
-<h5>Tālrunis:                     +371 25618664 </br>
-E-pasts:                        antikorozija@inbox.lv </br> 
-Juridiskā adrese:   Valtaiķu iela 24, Rīga, LV-1029  </br> 
-Faktiskā adrese:    "Dzelzīši", Pēternieki, Olaines pag.,</br> 
-                                         Olaines novads, LV-2127 </br>
-Rekvizīti:                 Reg. Nr. 40103981741 </br>
-                                      PVN reg. Nr. LV40103981741 </br>
-                                    A/S Swedbank, kods: HABALV22                                                                                                              konts: LV15HABA0551041543392                                        
-									</h5>
 
-</div>
-</div>
-</header>
+  <div class="pimg2">
+    <div class="ptext">
+      <span class="border">
+        <strong>Rust Escape</strong>
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-light">
+      <a href='https://skreepach.github.io/activehome.html'><h2>Back</h2></a>
+    <p>
+ANTI-CORROSION TREATMENT OF TANKS. NOVEMBER 26, 2017 AT 11:00 PM 
+ANTI-CORROSION TREATMENT OF 2 TANKS WITH THE TOTAL SURFACE OF 300 SQ.M. WAS MADE TOGETHER WITH SIA RESTOUR IN LITHUANIA, 
+KEDAYNYAY, ON THE BASIS OF UAB IMLITEX. KONTS: LV15HABA0551041543392
+    </p>
+  </section>
+
+  <div class="pimg2">
+    <div class="ptext">
+      <span class="border trans">
+        Anti-korozija.lv
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h2>Anti-korozija.lv</h2>
+    <p>
+<img src='http://site-301220.mozfiles.com/files/301220/galleries/12889676/large/1-1.jpg?2645724'></img>   </p>
+    <p>
+<img src='http://site-301220.mozfiles.com/files/301220/galleries/12889676/large/4-1.png?2645726'></img>   </p>
+    <p>
+<img src='http://site-301220.mozfiles.com/files/301220/galleries/12889676/large/6.jpg?2645728'></img>   </p>
+  </section>
+
+  <div class="pimg2">
+    <div class="ptext">
+      <span class="border trans">
+     
+      </span>
+    </div>
+  </div>
 </body>
 </html>
