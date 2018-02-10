@@ -9,7 +9,7 @@
 	padding:0;
 }
 header{
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://skreepach.github.io/image2.jpg');
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://cdn.pixabay.com/photo/2016/03/27/19/37/iron-1283904_1280.jpg');
 	height:100vh;
 	background-size:cover;
 	background-position:center;
@@ -91,12 +91,86 @@ font-family:'Roboto', sans-serif;
 background-color:#1A7E7C;
 transition:;
 }
+.section-light{
+  background-color:#755E54;
+  color:#ddd;
+}
+.pimg1, .pimg2, .pimg3{
+  position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+}
+.pimg1{
+  background-image:url('image1.jpg');
+  min-height:100%;
+}
+.pimg2{
+  background-image:url('https://cdn.pixabay.com/photo/2017/12/29/12/44/forge-3047518_1280.jpg');
+  min-height:400px;
+}
+.pimg3{
+  background-image:url('https://cdn.pixabay.com/photo/2017/12/29/12/44/forge-3047518_1280.jpg');
+  min-height:400px;
+}
+.section{
+  text-align:center;
+  padding:50px 80px;
+  }
+.section-light{
+  background-color:#755E54;
+  color:#ddd;
+}
+.section-dark{
+  background-color:#755E54;
+  color:#ddd;
+}
+.ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+.ptext .border{
+  background-color:#111;
+  color:#fff;
+  padding:20px;
+}
+.ptext .border.trans{
+  background-color:transparent;
+}
+@media(max-width:568px){
+  .pimg1, .pimg2, .pimg3{
+    background-attachment:scroll;
+  }
+}
+img{
+	width: 400px;
+	height:auto;
+	float:left;
+	
+}
+h3{
+text-align:left;
+color: white;
+top: 110px;
+}
 </style>
 <header>
 <div class='row'>
 <div class='logo'>
-<img src='http://brandmark.io/logo-rank/random/apple.png'>
-
+<img src='https://cdn.pixabay.com/photo/2014/04/03/11/57/horseshoe-312712_960_720.png'>
+<h3>NO chance to rust...</h3>
 </div>
 
 <ul class='main-nav'>
@@ -118,5 +192,28 @@ Anti-corrosion Protection</h1>
 </div>
 </div>
 </header>
+  <div class="pimg2">
+    <div class="ptext">
+      <span class="border">
+        <strong>Rust Escape</strong>
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-light">
+      <a href='https://skreepach.github.io/activehomeRU.html'><h2>Back</h2></a>
+    <p>
+Anti-Corrosion treatment of 2 tanks with the total surface of 300 sq.m. was made together with SIA Restour in Lithuania,
+	    Kedaynyay, on the basis of UAB Imlitex. 
+    </p>
+  </section>
+
+  <div class="pimg2">
+    <div class="ptext">
+      <span class="border trans">
+        rustescape.eu
+      </span>
+    </div>
+  </div>
 </body>
 </html>
