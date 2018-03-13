@@ -6,11 +6,15 @@
 </head>
 
 		<body>
-				<style>
-				body{
-				margin:0;
-				}
-				header{
+		<style>
+		body{
+margin:0;
+padding:0;
+background: linear-gradient(rgba(0,0,50,0.5) , rgba(0,0,50,0.5)),url(m1.jpg);
+background-size:cover;
+background-position: center;
+}
+header{
 				background: black;
 				color: white;
 				padding:8px 0px 6px 40px;
@@ -25,17 +29,7 @@
 				margin-top: 0px;
 				margin-right: 10px;
 				}
-				h2{
-				display: inline;
-				color:white;
-				font-family: 'Oswald' , sans-serif;
-				font-weight:400;
-				font-size: 32px;
-				float: center;
-				margin-top: 0px;
-				margin-right: 10px;
-				background-color:red;
-				}
+		
 				nav ul{
 				display: inline;
 				padding: 0px;
@@ -56,140 +50,76 @@
 				font-family:'Montserrat',sans-serif;
 				}
 				.active{
-				background-color: red;
+				background-color: #400219;
 				padding: 30px 10px 16px 10px;
 				
 				}
 				.divider{
-				background-color: red;
+				background-color: #400219;
 				height: 5px;
 				}
 				.activeblack:hover{
-				background-color:red;
-				}
+				background-color:#400219;
 				}
 				.fwimagel{
-					
-					width: 100%;
-					height: 100%;
-					background-repeat: no-repeat;
-					background-size: cover;
-					margin: 0;
-					padding:0;
-				}
-				img{
-				height:auto;
-				width:400;
-				top:300;
+				width:100%;
+				height:100%;
+				margin:0;
+				padding:0;
 				}
 				.homesub{
-			font-family: 'Raleway' , sans-serif;
-				text-align:center;
+				font-family:'Raleway' , sans-serif;
+				margin:0;
+				padding:9% 5% 0% 55%;
+				font-size:18px;
+				color:white;
+				}
+				.homedes{
+				font-family: 'Raleway' , sans-serif;
+				margin:0.5% 0% 0% 55%;
 				font-size:75px;
 				color:white;
-				
-			
-				display: inline-block;
+				background-color:rgba(0,0,0,0.4);
+				display;inline-block;
 				}
-		
 				.homepho{
 				font-family:'Oswald' , sans-serif;
-				
-				
+				margin: 0% 0% 0% 55%;
+				font-size:64px;
 				color:white;
-				
 				}
 				.buttonhome{
-				
-				background:red;
+				margin:0% 0% 0% 55%;
+				background:#400219;
 				color:white;
-				border: none;
-				height: 50px;
+				border:none;
+				height:50px;
+				width:auto;
 				font-size:1.4em;
-				
-				cursor: pointer;
-				outline: none;
-				font-family:'Raleway' , sans-serif;
-				
-				}
-				.D{
-	background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
-		width: 100%;
-		height: 100vh;
-		animation: slide 40s infinite;	
-   
-
-		animation: slide 40s infinite;
-	
-				}
-				@keyframes slide{
-			0%{
-		background-image:url('m1.jpg');
-		}
-			20%{
-		background-image:url('m2.jpg');
-			}
-			20.01%{
-		background-image:url('m3.jpg');
-		}
-			40%{
-		background-image:url('m4.jpg');
-		}
-				40.01%{
-		background-image:url('m1.jpg');
-		}
-			60%{
-		background-image:url('m2.jpg');
-			}
-			60.01%{
-		background-image:url('m3.jpg');
-		}
-			80%{
-		background-image:url('m4.jpg');
-		}
-				80.01%{
-		background-image:url('m1.jpg');
-		}
-					100%{
-		background-image:url('m2.jpg');
-		}
-		
-		
-			}
-				</style>
+				padding:0.1em;
+				cursor:pointer;
+				outline:none;
 			
+				}
+		</style>
 	<header>
 			<nav>
-	<h1>Rust Ξscape</h1>
+	<h1>Rust Escape</h1>
 		<ul>
 	<li><a class='active' href=''>HOME</a></li>
 	<li><a class='activeblack' href=''>PRODUCTS</a></li>
 	<li><a class='activeblack' href=''>ABOUT US</a></li>
 	<li><a class='activeblack' href=''>CONTACTS</a></li>
-	<li><a class='activeblack'  href=''>ENG</a></li>
-	<li><a class='activeblack'  href=''>RU</a></li>
 		</ul>
 			</nav>
 	</header>
-				<div class='divider'>
-				
+				<div class='divider'></div>
+				<div class='fwimagel'>
+				<h2 class='homesub'>Professional </h2>
+				<h1 class='homedes'>Anti-corrosion Protection</h1>
+				<h1 class='homepho'></h1>
+				<br>
+				<button class='buttonhome'><a href=''>Programmable button </a></button>
 				</div>
-							<div class='fwimagel'>
-								
-					
-							
-							<div class='D'>
-							<h1 class='homesub'>Professional</br>Anti-corrosion Protection</h1></br>
-							<h2>Anti-corrosion treatments  for the protection of concrete, wood and metal,
-Rust converters-primers, epoxy compositions and etc. </br>
-Restoration of Anti-Corrosion Coatings of metal constructions, consultations. </h2>
- 
-
-							</div>
-					
-				
-							</div>
-		</body>
-	</html> 
+</body>
+</html>
